@@ -8,54 +8,54 @@ export const Footer = () => {
     <footer className="bg-gradient-to-br from-slate-950 via-slate-900 to-emerald-950 text-white relative overflow-hidden">
       {/* Premium background elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-to-br from-emerald-500/10 to-blue-500/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-72 h-72 bg-gradient-to-br from-blue-500/8 to-emerald-500/8 rounded-full blur-3xl"></div>
+        <div className="absolute top-10 sm:top-20 left-10 sm:left-20 w-64 h-64 sm:w-96 sm:h-96 bg-gradient-to-br from-emerald-500/10 to-blue-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 sm:bottom-20 right-10 sm:right-20 w-48 h-48 sm:w-72 sm:h-72 bg-gradient-to-br from-blue-500/8 to-emerald-500/8 rounded-full blur-3xl"></div>
       </div>
 
       {/* Main footer content */}
-      <div className="py-20 px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 items-center">
             
             {/* Left side - Brand and contact */}
-            <div>
-              <div className="flex items-center mb-8">
+            <div className="text-center lg:text-left">
+              <div className="flex items-center justify-center lg:justify-start mb-6 sm:mb-8">
                 <div className="relative group">
                   <div className="absolute -inset-1 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-3xl blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
-                  <div className="relative bg-gradient-to-r from-emerald-500 to-blue-500 p-4 rounded-3xl shadow-2xl">
-                    <Zap className="w-10 h-10 text-white" />
+                  <div className="relative bg-gradient-to-r from-emerald-500 to-blue-500 p-3 sm:p-4 rounded-3xl shadow-2xl">
+                    <Zap className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                   </div>
                 </div>
-                <div className="ml-4 flex flex-col">
-                  <span className="text-3xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">Tech Harvest</span>
-                  <span className="text-emerald-400/80 text-sm font-medium tracking-widest uppercase">Precision Agriculture</span>
+                <div className="ml-3 sm:ml-4 flex flex-col">
+                  <span className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">Tech Harvest</span>
+                  <span className="text-emerald-400/80 text-xs sm:text-sm font-medium tracking-widest uppercase">Precision Agriculture</span>
                 </div>
               </div>
               
-              <p className="text-slate-300 text-xl mb-10 max-w-lg leading-relaxed font-light">
+              <p className="text-slate-300 text-lg sm:text-xl mb-8 sm:mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
                 Empowering smallholder farmers through smart agriculture technology. 
                 <span className="text-emerald-300 font-medium"> Join us in harvesting the future.</span>
               </p>
 
               {/* Premium social links */}
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 justify-center lg:justify-start">
                 <a 
                   href="#" 
-                  className="group relative bg-white/5 hover:bg-emerald-500/20 w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-white/10 hover:border-emerald-400/30"
+                  className="group relative bg-white/5 hover:bg-emerald-500/20 w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-white/10 hover:border-emerald-400/30"
                 >
-                  <Linkedin className="w-6 h-6 text-slate-400 group-hover:text-emerald-300 transition-colors duration-300" />
+                  <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 text-slate-400 group-hover:text-emerald-300 transition-colors duration-300" />
                 </a>
                 <a 
                   href="#" 
-                  className="group relative bg-white/5 hover:bg-blue-500/20 w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-white/10 hover:border-blue-400/30"
+                  className="group relative bg-white/5 hover:bg-blue-500/20 w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-white/10 hover:border-blue-400/30"
                 >
-                  <Twitter className="w-6 h-6 text-slate-400 group-hover:text-blue-300 transition-colors duration-300" />
+                  <Twitter className="w-5 h-5 sm:w-6 sm:h-6 text-slate-400 group-hover:text-blue-300 transition-colors duration-300" />
                 </a>
                 <a 
                   href="#" 
-                  className="group relative bg-white/5 hover:bg-pink-500/20 w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-white/10 hover:border-pink-400/30"
+                  className="group relative bg-white/5 hover:bg-pink-500/20 w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 backdrop-blur-sm border border-white/10 hover:border-pink-400/30"
                 >
-                  <Instagram className="w-6 h-6 text-slate-400 group-hover:text-pink-300 transition-colors duration-300" />
+                  <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-slate-400 group-hover:text-pink-300 transition-colors duration-300" />
                 </a>
               </div>
             </div>
@@ -63,21 +63,21 @@ export const Footer = () => {
             {/* Right side - Premium newsletter signup */}
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-emerald-500/20 to-blue-500/20 rounded-3xl blur-xl"></div>
-              <div className="relative bg-white/5 backdrop-blur-xl rounded-3xl p-10 border border-white/20">
-                <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">Stay in the Loop</h3>
-                <p className="text-slate-300 mb-8 text-lg leading-relaxed">
+              <div className="relative bg-white/5 backdrop-blur-xl rounded-3xl p-6 sm:p-8 lg:p-10 border border-white/20">
+                <h3 className="text-2xl sm:text-3xl font-bold mb-4 bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent text-center lg:text-left">Stay in the Loop</h3>
+                <p className="text-slate-300 mb-6 sm:mb-8 text-base sm:text-lg leading-relaxed text-center lg:text-left">
                   Get early access to Tech Harvest and be the first to know about our 
                   <span className="text-emerald-300 font-medium"> revolutionary launch</span>.
                 </p>
                 
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col gap-4">
                   <Input
                     type="email"
                     placeholder="Enter your email address"
-                    className="flex-1 bg-white/10 border-white/20 text-white placeholder-slate-400 focus:border-emerald-400 focus:ring-emerald-400/20 rounded-xl py-4 px-6 text-lg backdrop-blur-sm"
+                    className="bg-white/10 border-white/20 text-white placeholder-slate-400 focus:border-emerald-400 focus:ring-emerald-400/20 rounded-xl py-3 sm:py-4 px-4 sm:px-6 text-base sm:text-lg backdrop-blur-sm"
                   />
                   <Button 
-                    className="group relative bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-400 hover:to-blue-400 px-8 py-4 text-lg rounded-xl shadow-2xl hover:shadow-emerald-500/25 transition-all duration-500 hover:scale-105 font-semibold"
+                    className="group relative bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-400 hover:to-blue-400 px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-xl shadow-2xl hover:shadow-emerald-500/25 transition-all duration-500 hover:scale-105 font-semibold w-full"
                   >
                     <span className="relative z-10">Subscribe</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -90,19 +90,19 @@ export const Footer = () => {
       </div>
 
       {/* Premium bottom bar */}
-      <div className="border-t border-white/10 py-8 px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-slate-400 text-lg font-light">
+      <div className="border-t border-white/10 py-6 sm:py-8 px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
+          <p className="text-slate-400 text-base sm:text-lg font-light mb-4 sm:mb-0">
             © 2025 Tech Harvest. All rights reserved.
           </p>
-          <div className="flex space-x-8 mt-4 sm:mt-0">
-            <a href="#" className="text-slate-400 hover:text-emerald-300 text-lg transition-colors duration-300 font-medium">
+          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-8">
+            <a href="#" className="text-slate-400 hover:text-emerald-300 text-base sm:text-lg transition-colors duration-300 font-medium">
               Privacy Policy
             </a>
-            <a href="#" className="text-slate-400 hover:text-emerald-300 text-lg transition-colors duration-300 font-medium">
+            <a href="#" className="text-slate-400 hover:text-emerald-300 text-base sm:text-lg transition-colors duration-300 font-medium">
               Terms of Service
             </a>
-            <a href="#" className="text-slate-400 hover:text-emerald-300 text-lg transition-colors duration-300 font-medium">
+            <a href="#" className="text-slate-400 hover:text-emerald-300 text-base sm:text-lg transition-colors duration-300 font-medium">
               Contact
             </a>
           </div>
