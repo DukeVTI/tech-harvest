@@ -5,7 +5,7 @@ export const Solutions = () => {
   const solutions = [
     {
       icon: Droplets,
-      title: "Smart Irrigation",
+      title: "Smart Farming Services",
       description: "AI-powered watering systems that optimize water usage and timing for maximum crop health and sustainability.",
       gradient: "from-emerald-500 to-teal-500",
       bgGradient: "from-emerald-500/15 to-teal-500/15",
@@ -13,7 +13,7 @@ export const Solutions = () => {
     },
     {
       icon: Eye,
-      title: "AI Crop Monitoring",
+      title: "Agric Services",
       description: "Computer vision technology that detects pests, diseases, and growth patterns in real-time with precision.",
       gradient: "from-teal-500 to-emerald-600",
       bgGradient: "from-teal-500/15 to-emerald-600/15",
@@ -21,7 +21,7 @@ export const Solutions = () => {
     },
     {
       icon: Thermometer,
-      title: "Soil Health Sensors",
+      title: "Agric Services",
       description: "IoT sensors that monitor soil moisture, pH, and nutrients to optimize growing conditions continuously.",
       gradient: "from-amber-500 to-orange-500",
       bgGradient: "from-amber-500/15 to-orange-500/15",
@@ -29,7 +29,7 @@ export const Solutions = () => {
     },
     {
       icon: CloudRain,
-      title: "Weather Prediction",
+      title: "Resource Support",
       description: "Hyper-local weather forecasting to help farmers plan planting, harvesting, and crop protection strategies.",
       gradient: "from-slate-500 to-slate-600",
       bgGradient: "from-slate-500/15 to-slate-600/15",
