@@ -26,13 +26,15 @@ export const Footer = () => {
                     <Zap className="w-10 h-10 text-white drop-shadow-lg" />
                   </div>
                 </div>
-                <div className="ml-4 flex flex-col">
-                  <span className="text-3xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">Tech Harvest</span>
-                 <span className="text-emerald-300/90 text-sm sm:text-base font-medium tracking-[0.05em]">
-                      Integrating Agriculture With Technology
-                  </span>
-                </div>
-              </div>
+                <div className="ml-4 flex flex-col items-center lg:items-start text-center lg:text-left gap-y-1">
+  <span className="text-3xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">
+    Tech Harvest
+  </span>
+  <span className="block text-emerald-300/90 text-sm sm:text-base font-medium tracking-[0.05em]">
+    Integrating Agriculture With Technology
+  </span>
+</div>
+        </div>
               
               <p className="text-slate-300 text-xl mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed font-light">
                 Empowering smallholder farmers through smart agriculture technology. 
