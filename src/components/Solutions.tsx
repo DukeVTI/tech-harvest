@@ -6,7 +6,7 @@ export const Solutions = () => {
     {
       icon: Droplets,
       title: "Smart Farming Services",
-      description: "Integrates AI, IoT, and automation to optimize agriculture—boosting yields by 20-30% while cutting water/chemical use by 30-40%. It empowers farmers with real-time data, precision tools, and digital training to overcome climate and resource challenges. By making high-tech solutions affordable and accessible, it transforms smallholder farming into sustainable, profitable enterprises.",
+      description: "Integrates AI, IoT, and automation to optimize agriculture.By making high-tech solutions affordable and accessible, it transforms smallholder farming into sustainable, profitable enterprises.",
       gradient: "from-emerald-500 to-teal-500",
       bgGradient: "from-emerald-500/15 to-teal-500/15",
       hoverGradient: "from-emerald-500/25 to-teal-500/25"
