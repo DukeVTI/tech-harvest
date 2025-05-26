@@ -6,7 +6,11 @@ export const Solutions = () => {
     {
       icon: Droplets,
       title: "Smart Farming Services",
-      description: "AI-powered watering systems that optimize water usage and timing for maximum crop health and sustainability.",
+      description: " - Crop Monitoring with Drones  
+  - IoT Soil Sensors  
+  - Automated Livestock Tracking  
+  - AI-Powered Pest Prediction  
+  - Smart Greenhouses ",
       gradient: "from-emerald-500 to-teal-500",
       bgGradient: "from-emerald-500/15 to-teal-500/15",
       hoverGradient: "from-emerald-500/25 to-teal-500/25"
@@ -14,23 +18,37 @@ export const Solutions = () => {
     {
       icon: Eye,
       title: "Agric Services",
-      description: "Computer vision technology that detects pests, diseases, and growth patterns in real-time with precision.",
+      description: "- Soil Testing & Analysis
+- Pest & Disease Management Support
+- Organic & Sustainable Farming Techniques Guidance
+- Mechanization Services
+- Irrigation Setup & Water Management Solutions
+- Farm Management Advisory",
+      
       gradient: "from-teal-500 to-emerald-600",
       bgGradient: "from-teal-500/15 to-emerald-600/15",
       hoverGradient: "from-teal-500/25 to-emerald-600/25"
     },
     {
       icon: Thermometer,
-      title: "Agric Services",
-      description: "IoT sensors that monitor soil moisture, pH, and nutrients to optimize growing conditions continuously.",
+      title: "Resource Support",
+      description: "- Access to High-Quality Seeds
+- Mechanization Services
+- Affordable Equipment Rentals (tillage tools, planters, sprayers
+- Irrigation Setup & Water Management (drip kits, rainwater harvesting systems)
+",
       gradient: "from-amber-500 to-orange-500",
       bgGradient: "from-amber-500/15 to-orange-500/15",
       hoverGradient: "from-amber-500/25 to-orange-500/25"
     },
     {
       icon: CloudRain,
-      title: "Resource Support",
-      description: "Hyper-local weather forecasting to help farmers plan planting, harvesting, and crop protection strategies.",
+      title: "Education Service",
+      description: "- Farm Management & Financial Planning Courses
+- Climate Resiliency Training
+- Digital Literacy Programs
+- Crop-Specific Production Modules
+- Post-Harvest Handling & Storage Techniques",
       gradient: "from-slate-500 to-slate-600",
       bgGradient: "from-slate-500/15 to-slate-600/15",
       hoverGradient: "from-slate-500/25 to-slate-600/25"
