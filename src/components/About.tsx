@@ -18,9 +18,9 @@ export const About = () => {
             About Tech Harvest
           </div>
           <h2 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-8 bg-gradient-to-r from-slate-800 via-emerald-800 to-teal-700 bg-clip-text text-transparent leading-tight px-4">
-            Bridging Innovation
+            Revolutionizing Agriculture
             <br />
-            <span className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl">& Agriculture</span>
+            <span className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl">in Africa</span>
           </h2>
           <p className="text-xl sm:text-2xl lg:text-3xl text-slate-600 max-w-5xl mx-auto leading-relaxed font-light px-4">
             We're connecting cutting-edge agricultural technology with the world's 
@@ -38,10 +38,9 @@ export const About = () => {
                   <Leaf className="w-10 h-10 text-white drop-shadow-lg" />
                 </div>
               </div>
-              <h3 className="text-3xl font-bold text-slate-800 mb-6 group-hover:text-emerald-700 transition-colors duration-300">Innovation</h3>
+              <h3 className="text-3xl font-bold text-slate-800 mb-6 group-hover:text-emerald-700 transition-colors duration-300">Vision</h3>
               <p className="text-slate-600 leading-relaxed text-lg">
-                Leveraging <span className="font-semibold text-emerald-700">artificial intelligence</span>, IoT sensors, and satellite data to make precision agriculture 
-                accessible and affordable for small-scale farmers worldwide.
+                To <span className="font-semibold text-emerald-700">revolutionize agriculture</span> in Africa by empowering smallholder farmers with innovation, sustainable, and accessible solutions.
               </p>
             </div>
           </div>
@@ -55,10 +54,9 @@ export const About = () => {
                   <Target className="w-10 h-10 text-white drop-shadow-lg" />
                 </div>
               </div>
-              <h3 className="text-3xl font-bold text-slate-800 mb-6 group-hover:text-teal-700 transition-colors duration-300">Impact</h3>
+              <h3 className="text-3xl font-bold text-slate-800 mb-6 group-hover:text-teal-700 transition-colors duration-300">Mission</h3>
               <p className="text-slate-600 leading-relaxed text-lg">
-                Empowering farmers to <span className="font-semibold text-teal-700">increase yields</span>, reduce waste, and build sustainable 
-                livelihoods while feeding growing communities across the globe.
+              <span className="font-semibold text-teal-700">Bridging the gaps</span> in agriculture by providing affordable access mechanization, smart farming technology.
               </p>
             </div>
           </div>
