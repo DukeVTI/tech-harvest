@@ -7,54 +7,54 @@ export const Solutions = () => {
       icon: Droplets,
       title: "Smart Irrigation",
       description: "AI-powered watering systems that optimize water usage and timing for maximum crop health and sustainability.",
-      gradient: "from-blue-500 to-cyan-500",
-      bgGradient: "from-blue-500/10 to-cyan-500/10"
+      gradient: "from-blue-600 to-teal-600",
+      bgGradient: "from-blue-600/10 to-teal-600/10"
     },
     {
       icon: Eye,
       title: "AI Crop Monitoring",
       description: "Computer vision technology that detects pests, diseases, and growth patterns in real-time with precision.",
-      gradient: "from-emerald-500 to-green-500",
-      bgGradient: "from-emerald-500/10 to-green-500/10"
+      gradient: "from-green-600 to-green-700",
+      bgGradient: "from-green-600/10 to-green-700/10"
     },
     {
       icon: Thermometer,
       title: "Soil Health Sensors",
       description: "IoT sensors that monitor soil moisture, pH, and nutrients to optimize growing conditions continuously.",
-      gradient: "from-orange-500 to-red-500",
-      bgGradient: "from-orange-500/10 to-red-500/10"
+      gradient: "from-amber-600 to-orange-600",
+      bgGradient: "from-amber-600/10 to-orange-600/10"
     },
     {
       icon: CloudRain,
       title: "Weather Prediction",
       description: "Hyper-local weather forecasting to help farmers plan planting, harvesting, and crop protection strategies.",
-      gradient: "from-purple-500 to-indigo-500",
-      bgGradient: "from-purple-500/10 to-indigo-500/10"
+      gradient: "from-slate-600 to-slate-700",
+      bgGradient: "from-slate-600/10 to-slate-700/10"
     }
   ];
 
   return (
-    <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900 relative overflow-hidden">
+    <section className="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-slate-800 to-green-900 relative overflow-hidden">
       {/* Premium background elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-20 sm:top-40 left-10 sm:left-20 w-64 h-64 sm:w-96 sm:h-96 bg-gradient-to-br from-emerald-400/10 to-blue-400/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 sm:bottom-40 right-10 sm:right-20 w-80 h-80 sm:w-[500px] sm:h-[500px] bg-gradient-to-br from-blue-400/8 to-purple-400/8 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 sm:top-40 left-10 sm:left-20 w-64 h-64 sm:w-96 sm:h-96 bg-gradient-to-br from-green-600/10 to-teal-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 sm:bottom-40 right-10 sm:right-20 w-80 h-80 sm:w-[500px] sm:h-[500px] bg-gradient-to-br from-teal-600/8 to-green-600/8 rounded-full blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full bg-gradient-to-r from-emerald-500/20 to-blue-500/20 text-emerald-300 font-semibold mb-6 sm:mb-8 border border-emerald-400/30 backdrop-blur-sm text-sm sm:text-base">
-            <span className="w-2 h-2 bg-emerald-400 rounded-full mr-3 animate-pulse"></span>
+          <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full bg-gradient-to-r from-green-600/20 to-teal-600/20 text-green-300 font-semibold mb-6 sm:mb-8 border border-green-600/30 backdrop-blur-sm text-sm sm:text-base">
+            <span className="w-2 h-2 bg-green-500 rounded-full mr-3 animate-pulse"></span>
             Our Solutions Preview
           </div>
-          <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 bg-gradient-to-r from-white via-emerald-200 to-blue-200 bg-clip-text text-transparent leading-tight px-4">
+          <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 bg-gradient-to-r from-white via-green-200 to-teal-200 bg-clip-text text-transparent leading-tight px-4">
             Technology That
             <br />
             <span className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl">Transforms Farming</span>
           </h2>
           <p className="text-lg sm:text-xl lg:text-2xl text-slate-300 max-w-4xl mx-auto leading-relaxed font-light px-4">
             Cutting-edge agricultural technology designed specifically for 
-            <span className="text-emerald-300 font-medium"> smallholder farmers</span> around the world.
+            <span className="text-green-300 font-medium"> smallholder farmers</span> around the world.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export const Solutions = () => {
                       </div>
                     </div>
                     
-                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 group-hover:text-emerald-200 transition-colors duration-300">
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 group-hover:text-green-200 transition-colors duration-300">
                       {solution.title}
                     </h3>
                     
