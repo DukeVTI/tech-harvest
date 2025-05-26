@@ -32,8 +32,8 @@ export const Hero = () => {
             <span className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-white via-emerald-100 to-teal-100 bg-clip-text text-transparent tracking-tight drop-shadow-sm">
               Tech Harvest
             </span>
-            <span className="text-emerald-300/90 text-sm sm:text-base font-medium tracking-[0.2em] uppercase">
-              Precision Agriculture
+           <span className="text-emerald-300/90 text-sm sm:text-base font-medium tracking-[0.05em]">
+              Integrating Agriculture With Technology
             </span>
           </div>
         </div>
