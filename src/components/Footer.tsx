@@ -28,7 +28,9 @@ export const Footer = () => {
                 </div>
                 <div className="ml-4 flex flex-col">
                   <span className="text-3xl font-bold bg-gradient-to-r from-white to-emerald-200 bg-clip-text text-transparent">Tech Harvest</span>
-                  <span className="text-emerald-400/90 text-sm font-medium tracking-[0.15em] uppercase">Precision Agriculture</span>
+                 <span className="text-emerald-300/90 text-sm sm:text-base font-medium tracking-[0.05em]">
+                      Integrating Agriculture With Technology
+                  </span>
                 </div>
               </div>
               
